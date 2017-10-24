@@ -6,7 +6,6 @@
 body {
   font-family: 'Source Sans Pro',sans-serif;
   margin: auto;
-  width: 90%;
 }
 
 header {
@@ -14,6 +13,7 @@ header {
   width: 100%;
   background: white;
   z-index: 1000;
+  /*border-bottom: 1px solid #EFEFEF;*/
 }
 
 ul {
@@ -29,8 +29,7 @@ ul {
 .pinterest {
   display: flex;
   align-items: center;
-  padding: 10px;
-  border-bottom: 1px solid #EFEFEF;
+  justify-content: center;
 }
 
 .wrapper {
@@ -38,15 +37,17 @@ ul {
 
 .pinterest li {
   font-weight: 600;
-  padding: 8px 15px;
 }
 
+.pinterest_menu {
+  border-bottom: 1px solid #EEEEEF;
+  padding: 10px 0;
+}
 .pinterest__actions {
-  margin-left: auto;
-  width: 10%;
   display: flex;
   justify-content: space-between;
   color: #B5B5B5;
+  width: 93px;
 }
 
 .pinterest__search {
@@ -55,6 +56,8 @@ ul {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  /*outline: 1px solid;*/
+  margin: 0 16px;
 }
 
 .pinterest__search i {
@@ -85,6 +88,7 @@ ul {
   width: 80%;
   margin: auto;
   align-items: center;
+  padding: 6px;
 }
 
 .pinterest__actions i.fa {
@@ -93,13 +97,8 @@ ul {
 
 .pinterest_submenu {
   display: flex;
-  justify-content: center;
-}
-
-.pinterest_submenu {
-  display: flex;
   justify-content: space-between;
-  width: 89%;
+  width: 70%;
   margin: 10px auto;
 }
 
@@ -155,7 +154,8 @@ main {
   display: flex;
   justify-content: space-between;
   position: relative;
-    top: 160px;
+  top: 150px;
+  padding: 0 80px;
 }
 
 main section {
@@ -167,11 +167,12 @@ main section {
 section img {
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 }
 
 section div {
-  margin: 10px 0;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .author {
