@@ -5,11 +5,15 @@
 
 body {
   font-family: 'Source Sans Pro',sans-serif;
+  margin: auto;
+  width: 90%;
 }
 
 header {
   position: fixed;
   width: 100%;
+  background: white;
+  z-index: 1000;
 }
 
 ul {
@@ -30,8 +34,6 @@ ul {
 }
 
 .wrapper {
-  margin: auto;
-  width: 90%;
 }
 
 .pinterest li {
@@ -62,6 +64,11 @@ ul {
 .pinterest__brand i.fa{
   color: #BD081C;
   font-size: 30px;
+
+}
+
+.pinterest__brand li {
+  margin-left: 0;
 }
 
 .pinterest input {
@@ -142,4 +149,68 @@ ul {
 
 .pinterest_submenu div:nth-child(9) {
   background-color: #B28176;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+    top: 160px;
+}
+
+main section {
+  width: 24%;
+  border-radius: 5px;
+  height: 100%;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+}
+
+section div {
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.author {
+  display: flex;
+  margin-top: 15px;
+}
+
+.author__data {
+  margin-left: 5px;
+}
+
+.author__data p:first-child {
+  font-weight: 600;
+}
+
+.initial_letter {
+  border-radius: 100px;
+  background-color: #D597A1;
+  height: 25px;
+  width: 25px;
+  bottom: 5px;
+  position: relative;
+}
+
+.initial_letter p {
+  text-align: center;
+  position: relative;
+  top: 5px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.image ~ h4 {
+  margin: 10px 0;
+}
+
+p.description {
+  margin: 10px 0;
+  font-size: 15px;
+  line-height: 19px;
 }
