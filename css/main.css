@@ -8,7 +8,8 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #EFEFEF;
+  position: fixed;
+  width: 100%;
 }
 
 ul {
@@ -25,6 +26,7 @@ ul {
   display: flex;
   align-items: center;
   padding: 10px;
+  border-bottom: 1px solid #EFEFEF;
 }
 
 .wrapper {
@@ -80,4 +82,64 @@ ul {
 
 .pinterest__actions i.fa {
   font-size: 21px;
+}
+
+.pinterest_submenu {
+  display: flex;
+  justify-content: center;
+}
+
+.pinterest_submenu {
+  display: flex;
+  justify-content: space-between;
+  width: 89%;
+  margin: 10px auto;
+}
+
+.pinterest_submenu div {
+  padding: 20px 25px;
+  font-weight: 700;
+  border-radius: 6px;
+  background-color: pink;
+  color: white;
+}
+
+.pinterest_submenu div:first-child {
+  background-color: #725F4E;
+}
+
+.pinterest_submenu div:nth-child(2) {
+  background-color: #AB8B6F;
+}
+
+.pinterest_submenu div:nth-child(3) {
+  background-color: #8C7863;
+}
+
+.pinterest_submenu div:nth-child(4) {
+  background-color: #8D6D51;
+}
+
+.pinterest_submenu div:nth-child(4) {
+  background-color: #927256;
+}
+
+.pinterest_submenu div:nth-child(5) {
+  background-color: #9D964D;
+}
+
+.pinterest_submenu div:nth-child(6) {
+  background-color: #82745C;
+}
+
+.pinterest_submenu div:nth-child(7) {
+  background-color: #8C8484;
+}
+
+.pinterest_submenu div:nth-child(8) {
+  background-color: #9B765B;
+}
+
+.pinterest_submenu div:nth-child(9) {
+  background-color: #B28176;
 }
