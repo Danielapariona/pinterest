@@ -1,0 +1,83 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Source Sans Pro',sans-serif;
+}
+
+header {
+  border-bottom: 1px solid #EFEFEF;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.fa .fa-search {
+  position: relative;
+  top: 2px;
+}
+
+.pinterest {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.wrapper {
+  margin: auto;
+  width: 90%;
+}
+
+.pinterest li {
+  font-weight: 600;
+  padding: 8px 15px;
+}
+
+.pinterest__actions {
+  margin-left: auto;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+  color: #B5B5B5;
+}
+
+.pinterest__search {
+  width: 78%;
+  background-color: #EFEFEF;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.pinterest__search i {
+  margin: 0 10px;
+}
+
+.pinterest__brand i.fa{
+  color: #BD081C;
+  font-size: 30px;
+}
+
+.pinterest input {
+  padding: 5px;
+  border-radius: 3px;
+  border: 0px;
+  width: 100%;
+  background-color: transparent;
+  font-size: 16px;
+}
+
+.box {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+}
+
+.pinterest__actions i.fa {
+  font-size: 21px;
+}
