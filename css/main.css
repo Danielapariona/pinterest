@@ -177,7 +177,7 @@ section article {
 
 .author {
   display: flex;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .author__data {
@@ -193,7 +193,6 @@ section article {
   background-color: #D597A1;
   height: 25px;
   width: 25px;
-  bottom: 5px;
   position: relative;
 }
 
@@ -214,4 +213,26 @@ p.description {
   margin: 10px 0;
   font-size: 15px;
   line-height: 19px;
+}
+
+
+.flex {
+  display: flex;
+}
+
+.description_section {
+  margin: 20px 0;
+  justify-content: space-between;
+}
+
+.description_section .views {
+  position: relative;
+  color: #b5b5b5;
+  font-size: 10px;
+  margin-right: 35px;
+  top: 3px;
+}
+
+.views p, .views i {
+  margin-right: 1px;
 }
